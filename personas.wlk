@@ -6,21 +6,21 @@ object rosa {
 
 object estefania {
     method leGusta(cosa){
-        cosa.color().esFuerte()
+        return cosa.color().esFuerte()
     } 
     
 }
 
 object luisa {
     method leGusta(cosa){
-        cosa.material().esBrillante()
+        return cosa.material().esBrillante()
     } 
     
 }
 
 object juan {
     method leGusta(cosa){
-        cosa.color().esFuerte() or cosa.peso().between(1200, 1800) 
+        return not cosa.color().esFuerte() or cosa.peso().between(1200, 1800) 
     } 
     
 }

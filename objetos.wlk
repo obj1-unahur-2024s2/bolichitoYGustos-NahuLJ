@@ -1,6 +1,6 @@
 import colores.*
 import materiales.*
-
+import personas.*
 object remera {
     
     method color() = rojo
@@ -9,10 +9,9 @@ object remera {
 
     method peso() = 800
 }
-
 object pelota {
     
-    method color() = parda
+    method color() = pardo
 
     method material() = cuero
 
@@ -26,13 +25,12 @@ object biblioteca {
 
     method peso() = 8000
 }
-
 object munieco {
     var peso = 300
     
-    method color() = rojo
+    method color() = celeste
 
-    method material() = lino
+    method material() = vidrio
 
     method peso() = peso
 
@@ -48,7 +46,7 @@ object placa {
 
     method material() = cobre
 
-    method peso() = 
+    method peso() = peso
 
     method nuevoPeso(unPeso){
         peso = unPeso

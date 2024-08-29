@@ -56,3 +56,42 @@ object placa {
         color = unColor
     }
 }
+
+//MAS COSAS
+object arito {
+    
+    method color() = celeste
+
+    method material() = cobre
+
+    method peso() = 180
+
+}
+
+object banquito {
+    var color = naranja
+    
+    method color() = color
+
+    method material() = madera
+
+    method peso() = 1700
+
+    method nuevoColor(unColor){
+        color = unColor
+    }
+}
+
+object cajita {
+    var objetoDentro = munieco
+    
+    method color() = rojo
+
+    method material() = cobre
+
+    method peso() = 400 + objetoDentro.peso()
+
+    method nuevoObjetoDentro(unObjeto){
+        objetoDentro = unObjeto
+    }
+}

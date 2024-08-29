@@ -14,3 +14,8 @@ object pardo  {
     method esFuerte() = false
 }
 
+//MAS COSAS
+
+object naranja {
+    method esFuerte() = true
+}
